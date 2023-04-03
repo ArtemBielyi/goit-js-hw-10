@@ -18,3 +18,35 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
+.card-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.name-official {
+  font-size: 24px;
+  font-weight: 700;
+}
+.name-card {
+  font-size: 18px;
+  font-weight: 700;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin-right: 10px;
+}
+.info-span {
+  font-weight: bold;
+}
